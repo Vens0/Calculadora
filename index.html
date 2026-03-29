@@ -9,8 +9,10 @@
 
 <body>
 
-<script src="prog.js"></script>
-    
+    <script src="prog.js"></script>
+    <script src="limpar.js"></script>
+    <script src="igual.js"></script>
+
     <div class="gr">
         <h2 class="txt">Calculadora Simples</h2>
         <div id="visor"></div>
@@ -20,19 +22,19 @@
         <div>
             <div class="flex">
 
-                <button class="bloco" onclick ="input('1')"> 
+                <button class="bloco" onclick="input('1')">
                     <h2 class="num">1</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('2')">
+                <button class="bloco" onclick="input('2')">
                     <h2 class="num">2</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('3')">
+                <button class="bloco" onclick="input('3')">
                     <h2 class="num">3</h2>
                 </button>
 
-                <button class="bloco">
+                <button class="bloco" onclick="input('+')">
                     <h2 class="num">+</h2>
                 </button>
 
@@ -40,38 +42,38 @@
 
 
             <div class="flex">
-                <button class="bloco"  onclick ="input('4')">
+                <button class="bloco" onclick="input('4')">
                     <h2 class="num">4</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('5')">
+                <button class="bloco" onclick="input('5')">
                     <h2 class="num">5</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('6')">
+                <button class="bloco" onclick="input('6')">
                     <h2 class="num">6</h2>
                 </button>
 
-                <button class="bloco">
+                <button class="bloco" onclick="input('-')">
                     <h2 class="num">-</h2>
                 </button>
             </div>
 
 
             <div class="flex">
-                <button class="bloco"  onclick ="input('7')">
+                <button class="bloco" onclick="input('7')">
                     <h2 class="num">7</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('8')">
+                <button class="bloco" onclick="input('8')">
                     <h2 class="num">8</h2>
                 </button>
 
-                <button class="bloco"  onclick ="input('9')">
+                <button class="bloco" onclick="input('9')">
                     <h2 class="num">9</h2>
                 </button>
 
-                <button class="bloco">
+                <button class="bloco" onclick="input('x')">
                     <h2 class="num">x</h2>
                 </button>
 
@@ -80,21 +82,21 @@
 
             <div>
                 <div class="flex">
-                    <button class="bloco">
-                    <h2 class="num">=</h2>
-                </button>
+                    <button class="bloco" onclick="igual()">
+                        <h2 class="num">=</h2>
+                    </button>
 
-                    <button class="bloco" onclick ="input('0')">
-                    <h2 class="num">0</h2>
-                </button>
+                    <button class="bloco" onclick="input('0')">
+                        <h2 class="num">0</h2>
+                    </button>
 
-                    <button class="bloco">
-                    <h2 class="num">C</h2>
-                </button>
+                    <button class="bloco" onclick="limpar()">
+                        <h2 class="num">C</h2>
+                    </button>
 
-                    <button class="bloco">
-                    <h2 class="num">/</h2>
-                </button>
+                    <button class="bloco" onclick="input('/')">
+                        <h2 class="num">/</h2>
+                    </button>
 
                 </div>
             </div>
