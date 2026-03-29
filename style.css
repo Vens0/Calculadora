@@ -1,0 +1,30 @@
+.gr{
+    background-color: rgb(189, 189, 189);
+    justify-self: center;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.txt{
+    justify-self: center;
+
+}
+
+.bloco{
+    background-color: rgb(233, 233, 233);
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    justify-self: center;
+    
+}
+
+.flex{
+    display: flex;
+    justify-self: center;
+}
+
+.visor{
+    
+}
