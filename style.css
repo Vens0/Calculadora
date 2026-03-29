@@ -1,8 +1,10 @@
 .gr {
     background-color: rgb(189, 189, 189);
     justify-self: center;
-    height: 400px;
+    height: 430px;
     width: 400px;
+    margin-top: 30px;
+    border: 3px solid black;
 
 }
 
